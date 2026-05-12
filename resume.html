@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar - Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --text: #333;
+            --light-bg: #f4f7f6;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        body { background: #dcdde1; display: flex; justify-content: center; padding: 40px 20px; }
+
+        .resume-container {
+            background: #fff;
+            width: 100%;
+            max-width: 900px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        /* Left Column */
+        .sidebar {
+            background: var(--primary);
+            color: #fff;
+            padding: 40px 30px;
+        }
+
+        .profile-section { text-align: center; margin-bottom: 40px; }
+        .name { font-size: 26px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; line-height: 1.2; }
+        .title { font-size: 14px; color: var(--accent); margin-top: 10px; font-weight: 600; }
+
+        .contact-info { margin-bottom: 40px; }
+        .contact-item { display: flex; align-items: center; margin-bottom: 15px; font-size: 13px; }
+        .contact-item i { margin-right: 15px; color: var(--accent); width: 15px; }
+        .contact-item a { color: #fff; text-decoration: none; }
+
+        .section-title-sm { text-transform: uppercase; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 5px; margin-bottom: 15px; letter-spacing: 1px; color: var(--accent); }
+
+        .skill-tag { background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 12px; }
+
+        /* Right Column */
+        .main-content { padding: 40px; color: var(--text); }
+
+        .summary { font-size: 14px; line-height: 1.6; margin-bottom: 30px; color: #555; font-style: italic; }
+
+        .section { margin-bottom: 30px; }
+        .section-header { display: flex; align-items: center; margin-bottom: 15px; }
+        .section-header i { font-size: 18px; color: var(--accent); margin-right: 15px; }
+        .section-header h2 { font-size: 18px; text-transform: uppercase; color: var(--primary); letter-spacing: 1px; }
+
+        .item { margin-bottom: 20px; }
+        .item-title { font-weight: 700; font-size: 15px; color: #222; }
+        .item-sub { display: flex; justify-content: space-between; font-size: 13px; color: var(--accent); margin: 3px 0 8px; font-weight: 600; }
+        .item-desc { font-size: 13px; line-height: 1.5; color: #666; padding-left: 15px; border-left: 2px solid #eee; }
+
+        @media (max-width: 768px) {
+            .resume-container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <div class="sidebar">
+            <div class="profile-section">
+                <h1 class="name">Aman<br>Kumar</h1>
+                <p class="title">Aspiring Software Developer</p>
+            </div>
+
+            <div class="contact-info">
+                <h3 class="section-title-sm">Contact</h3>
+                <div class="contact-item"><i class="fas fa-phone"></i> +91 9474480603</div>
+                <div class="contact-item"><i class="fas fa-envelope"></i> username.amank@gmail.com</div>
+                <div class="contact-item"><i class="fas fa-map-marker-alt"></i> Kolkata, WB</div>
+                <div class="contact-item"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aman-kumar-a89345309">LinkedIn</a></div>
+                <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/capamank">GitHub</a></div>
+            </div>
+
+            <div class="skills">
+                <h3 class="section-title-sm">Programming</h3>
+                <div class="skill-tag">Python</div>
+                <div class="skill-tag">Java</div>
+                <div class="skill-tag">C Language</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">HTML5 / CSS3</div>
+                <div class="skill-tag">DSA</div>
+            </div>
+
+            <br>
+            <div class="skills">
+                <h3 class="section-title-sm">Tools</h3>
+                <div class="skill-tag">MS Office</div>
+                <div class="skill-tag">VS Code</div>
+                <div class="skill-tag">Git</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="summary">
+                Dedicated 2nd-year Software Engineering student and aspiring developer based in Kolkata. Passionate about problem-solving through DSA and backend development. Seeking a part-time opportunity to contribute my technical skills in Python and Java while growing within a professional environment.
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h2>Experience</h2>
+                </div>
+                <div class="item">
+                    <p class="item-title">Python Developer Intern</p>
+                    <div class="item-sub">
+                        <span>Tech Internships</span>
+                        <span>May 2025 - June 2025</span>
+                    </div>
+                    <div class="item-desc">
+                        • Developed automated scripts using Python to streamline data processing tasks.<br>
+                        • Collaborated with senior developers to debug code and optimize performance.<br>
+                        • Implemented basic data visualization modules using Python libraries.
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>Education</h2>
+                </div>
+                <div class="item">
+                    <p class="item-title">B.Tech / B.Voc (Software Development)</p>
+                    <div class="item-sub">
+                        <span>2nd Year Student</span>
+                        <span>2024 - 2028 (Expected)</span>
+                    </div>
+                    <div class="item-desc">
+                        Currently maintaining a strong academic focus on Data Structures, Algorithms, and Web Technologies.
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="item-title">Higher Secondary (Class XII) - CBSE</p>
+                    <div class="item-sub">
+                        <span>Kendriya Vidyalaya CMERI, Durgapur</span>
+                        <span>2024</span>
+                    </div>
+                    <div class="item-desc">
+                        Stream: Science (Physics, Chemistry, Maths)<br>
+                        Score: 72%
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <i class="fas fa-code"></i>
+                    <h2>Key Projects</h2>
+                </div>
+                <div class="item">
+                    <p class="item-title">Personal Portfolio Website</p>
+                    <div class="item-desc">
+                        Designed and developed a responsive portfolio using HTML and CSS to showcase projects and coding progress.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

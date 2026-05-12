@@ -1,0 +1,29 @@
+x="amazing"
+z=x[1:6:2]
+print(z)
+y=len("aman")
+print(y)
+d="operation successfully done in the hospital"
+de=d.capitalize()
+print(de)
+dr=d.endswith("n")
+print(dr)
+dt=d.count("o")
+print(dt)
+dy=d.find("in")
+print(dy)
+di=d.replace("hospital","operation theater")
+print(di)
+nm=["aman","samar","john",5,6,False]
+print(nm)
+nn=[1,2,6,34,56,23]
+l1=nn.sort()
+print(nn)
+nn.append(98)
+print(nn)
+nn.insert(4,67)
+print(nn)
+nn.pop(5)
+print(nn)
+nn.remove(56)
+print(nn)
