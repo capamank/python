@@ -1,1 +1,1 @@
-l1.get_info()
+import os

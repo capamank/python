@@ -6,5 +6,5 @@ def fun(n):
         fact *= i
      return fact   
         
-ans=fun(5)    
+ans=fun(10)    
 print(ans)

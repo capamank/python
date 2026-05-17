@@ -1,0 +1,2 @@
+this is a overwritten text in the write mode
+this is a text for appending the new text
